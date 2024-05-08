@@ -2,65 +2,141 @@
   <a href= "https://sam45643.github.io/main-page.github.io/" class="back-button">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSElEQVR4nO2az04UQRDGfycXDxpMFLzJ0QOc8CbeDMREI0f+PAOB8BaABw0mhiuPIKzKGxDjWdg/J8E1EPAsQijTSZlslpmdmZ7umR7Cl3zJbHantr5UT3VV9cANri/uAdPAGlAH9oHfwJnSXO/pd+Y3r4FBAkENmAd2gAtAMtLc8xmYU1uF4zawDPy0cD6Oh8ASMFCUiBdA26GAXraAKZ8CTOjfeRTQy02NvFMMA98KFCHKr8CQKxEjGm4piU31IRceaBqVktkGHtqKGChpOUmfZWaVoj8E4Lz0cN0mxUqgnEwrwoSvEYDDEsNW2k1zOQBnJYGLaaJxGICjksCDpAd/PucfHAHjwEQBYmb7CdnJKWJU7TwpQMinfv3EhQMRo/rZt5Bz4G6UkGlLg8fAmNp4DPwqQIQoX0YJeVORSEgXV6OE1CsUCVF+jBLSrFAkRGkK2is4rVAkpMuXKzhLebNJrb7xNKUvf0IX8iyPENul1QltaTUq+LDv+Ui/nVDS75qFobIjs+KzROmUXaIMVqxo/BtXNBp8qVAZv00fzOU0fqQi0u4DeThzXVrdWyRgKQBHJYELSSL+RyWEManEsJll4jgVgMMSwUvgORnxPgDHpYdvsUBNB8cSCHfTPOBxuB/QscIwOTGSsQ12zQbwCEcYKmmZ7ephk5fD0MuCRGz4Pnuf9LzU9m1SrC1qOto/cCjgh+7YpbwBUdOpeF1nsVmdP9cqdiZPanUN0xu80jHmlvbTJ10v1Zjr79qermhTdMe5FzcgDPwDzOEXEz5EkHIAAAAASUVORK5CYII=">
     </a>
-<div class="wrapper">
-    <a href="https://github.com/sam45643">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <img src="https://img.icons8.com/?size=512&id=WCL5hPLvhUjQ&format=png">
-        <P>GIT HUB</P>
-    </a>
-    <a href="samson.teni@mnsu.edu">samson.teni@mnsu.edu
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <img src="https://img.icons8.com/?size=512&id=jR8y7FyxC5si&format=png
-        ">
-        <P>Microsoft Outlook</P>
-    </a>
-    <a href="samson.teni@mnsu.edu">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <img src="https://img.icons8.com/?size=512&id=zQ92KI7XjZgR&format=png">
-        <P>Microsoft Teams</P>
-    </a>
-    <a href="sty5809@gmail.com">sty5809@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+    }
 
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <img src="https://img.icons8.com/?size=512&id=qyRpAggnV0zH&format=png">
-    <P style ="margin-left: -2px" >GMAIL</P>
-    </a>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #000;
+    }
 
-    <a href="tel:+2407335105">+1 (240) 733-5105</a>
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
 
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <img src="https://img.icons8.com/?size=512&id=I24lanX6Nq71&format=png">
-          <P style ="margin-left: -2px" >PHONE</P>
+    a {
+      position: relative;
+      display: inline-block;
+      padding: 15px 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      transition: .5s;
+      overflow: hidden;
+      margin: 10px;
+    }
+
+    a img {
+      max-width: 30px;
+      height: auto;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+      margin-bottom: 5px;
+    }
+
+    a:hover img {
+      opacity: 1;
+      filter: drop-shadow(0 0 5px var(--color)) drop-shadow(0 0 25px var(--color)) drop-shadow(0 0 50px var(--color)) drop-shadow(0 0 200px var(--color));
+    }
+
+    a:hover {
+      background-color: var(--color);
+      color: #050801;
+      box-shadow: 0 0 5px var(--color),
+                  0 0 25px var(--color),
+                  0 0 50px var(--color),
+                  0 0 200px var(--color);
+      -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    }
+
+    a:nth-child(1) { --color: #39FF14; }
+    a:nth-child(2) { --color: #03e9f4; }
+    a:nth-child(3) { --color: #4d88ff; }
+    a:nth-child(4) { --color: #e67e22; }
+    a:nth-child(5) { --color: #90ee90; }
+    a:nth-child(6) { --color: #f1c40f; }
+    a:nth-child(7) { --color: #9b59b6; }
+
+    /* ... (rest of the styles) ... */
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <a href="tel:+1234567890">
+      <img src="https://aroundsketch.github.io/Apple-App-Icons/App%20Icon/Apple/Phone/@SVG.svg">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Phone
     </a>
-    <a href="https://www.linkedin.com/in/sami-dan-b08ba4223/">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <img src="https://img.icons8.com/?size=512&id=xuvGCOXi8Wyg&format=png">
-          <P style ="font-size:1rem ;margin-left: -20px">Linkedin</P>
+    <a href="mailto:email@example.com">
+      <img src="https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-07-512.png" alt="Email Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Outlook
     </a>
-    <a href="https://app.joinhandshake.com/stu/users/34775742">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <img src="https://theme.zdassets.com/theme_assets/987567/9098193ee8ace4a0774b29484c80794a4c3cff55.png">
-        <P style ="font-size:0.9rem ;margin-left: -28px">Handshake</P>
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      LinkedIn
+    </a>
+    <a href="https://github.com/yourusername" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="GitHub Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      GitHub
+    </a>
+    <a href="https://app.joinhandshake.com/users/123456" target="_blank">
+      <img src="https://builtin.com/sites/www.builtin.com/files/2022-08/500PX%20Avatar.png" alt="Handshake Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Handshake
+    </a>
+    <a href="https://www.behance.net/yourusername" target="_blank">
+      <img src="https://assets-global.website-files.com/621c8d7ad9e04933c4e51ffb/65eba5ffa14998827c92cc01_slack-octothorpe.png" alt="Behance Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Slack
+    </a>
+    <a href="https://www.dribbble.com/yourusername" target="_blank">
+      <img src="https://mailmeteor.com/logos/assets/PNG/Microsoft_Office_Teams_Logo_512px.png" alt="Dribbble Icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Microsoft Teams
     </a>
   </div>
+</body>
+</html>
