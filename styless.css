@@ -1,19 +1,19 @@
 .back-arrow {
   position: fixed;
-  top: 15px;
-  left: 15px;
-  font-size: 22px;
+  top: 5%px;
+  left: 5%px;
+  font-size:60px;
   color: #fff;         /* White text on the background */  
   text-decoration: none;  
   cursor: pointer;
   border-radius: 8px;  /* Adjust curvature amount */
   padding: 8px 12px;  
-  background-color: #007bff;  /* Your desired background color */
+  background-color:  ;  /* Your desired background color */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   transition: all 0.3s ease; 
 }
 
 .back-arrow:hover {
-  background-color: #0056b3; /* Slightly darker on hover */
+  background-color: ; /* Slightly darker on hover */
   transform: translateX(-2px); 
 }
