@@ -1,12 +1,13 @@
  .back-arrow {
    position: fixed;
-   top: 20px;
-   left: 20px;
+   top: 5%;
+   left: 5%px;
    color: white; /* Example color - adjust as desired */
-   font-size: 80px; /* Example size - adjust as desired */ 
+   font-size: 110px; /* Example size - adjust as desired */ 
    text-decoration: none; /* Remove underline if using an anchor tag */
    cursor: pointer;
    transition: color 0.3s ease; /* Smooth color change on hover */
+  
  }
  
  .back-arrow:hover {
