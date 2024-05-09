@@ -2,17 +2,17 @@
   position: fixed;
   top: 15px;
   left: 15px;
-  color: #fff;         /* White text on the background */  
+  color: blue;         /* White text on the background */  
   text-decoration: none;  
   cursor: pointer;
   border-radius: 8px; /* Adjust curvature if needed */
   padding: 8px 15px;  /* Adjust padding as needed */
-  background-color: #007bff;  /* Your desired background color */
+  background-color: white;  /* Your desired background color */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   transition: all 0.3s ease; 
 }
 
 .back-button:hover {
-  background-color: #0056b3; /* Slightly darker on hover */
+  background-color: white; /* Slightly darker on hover */
   transform: translateX(-2px); 
 }
