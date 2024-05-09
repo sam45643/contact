@@ -1,7 +1,7 @@
 .back-arrow {
   position: fixed;
-  top: 5% px;
-  left: 5% px;
+  top: 15px;
+  left: 15px;
   font-size: 22px;
   color: #555;       /* Slightly darker gray */
   text-decoration: none;  /* Remove underline */
