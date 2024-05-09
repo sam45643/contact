@@ -1,16 +1,20 @@
- .back-arrow {
-   position: fixed;
-   top: 5%;
-   left: 5%px;
-   color: white; /* Example color - adjust as desired */
-   font-size: 110px; /* Example size - adjust as desired */ 
-   text-decoration: none; /* Remove underline if using an anchor tag */
-   cursor: pointer;
-   transition: color 0.3s ease; /* Smooth color change on hover */
-  
- }
- 
- .back-arrow:hover {
-   color: #007bff; /* Example hover color - change as you like */
- }
-  
+.back-arrow {
+  position: fixed;
+  top: 5% px;
+  left: 5% px;
+  font-size: 22px;
+  color: #555;       /* Slightly darker gray */
+  text-decoration: none;  /* Remove underline */
+  cursor: pointer;
+  border-radius: 3px; /* Slightly rounder */
+  padding: 5px 8px;   /* Adds a bit of padding */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.back-arrow:hover {
+  color: #007bff;             /* Blue on hover */
+  background-color: #fff;      /* Opaque white background on hover */
+  transform: translateX(-2px); /* Small shift to the left on hover */
+}
