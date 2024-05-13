@@ -15,6 +15,6 @@
 
 .back-arrow:hover {
   color: #007bff;             /* Blue on hover */
-  background-color: #fff;      /* Opaque white background on hover */
+  background-color: 99FFFF;      /* Opaque white background on hover */
   transform: translateX(-2px); /* Small shift to the left on hover */
 }
